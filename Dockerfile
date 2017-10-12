@@ -1,8 +1,8 @@
 FROM php:7.1-fpm
 
-COPY . /var/www/site1
+COPY . /var/www/site2
 
-WORKDIR /var/www/site1
+WORKDIR /var/www/site2
 
 ENTRYPOINT ["docker-php-entrypoint"]
 
